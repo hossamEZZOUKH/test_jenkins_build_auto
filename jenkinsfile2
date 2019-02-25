@@ -20,6 +20,6 @@ node {
       junit '**/target/surefire-reports/TEST-*.xml' 
       echo 'test unitaire ' 
       archive 'target/*.jar' 
-      echo ' ... le jar'
+      
    }
 }
